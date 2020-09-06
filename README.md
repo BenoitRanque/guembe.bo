@@ -3,6 +3,7 @@
 > A simple, hackable & minimalistic starter for Gridsome that uses Netlify CMS for content.
 
 ## Features
+
 - Beautiful and simple design.
 - Markdown for content.
 - Tags support.
@@ -17,15 +18,15 @@ https://netlifycms-gridsome.suits.at/
 
 ## Deploy to Netlify
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/suits-at/netlifycms-gridsome)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/BenoitRanque/guembe.bo)
 
 ### Enable Identity
 
-Enable the netlify identity service at https://app.netlify.com/sites/YOUR-SITE/settings/identity. For exact instructions see https://www.netlify.com/docs/identity/. You might want to enable Git Gateway as well https://www.netlify.com/docs/git-gateway/. 
+Enable the netlify identity service at https://app.netlify.com/sites/YOUR-SITE/settings/identity. For exact instructions see https://www.netlify.com/docs/identity/. You might want to enable Git Gateway as well https://www.netlify.com/docs/git-gateway/.
 
 ### Edit content
 
-Access `yourwebsite.com/admin`, e.g. `netfliycms-gridsome.netlify.com/admin` or locally this might be  `localhost:3000/admin`.
+Access `yourwebsite.com/admin`, e.g. `netfliycms-gridsome.netlify.com/admin` or locally this might be `localhost:3000/admin`.
 
 ## Install locally
 
