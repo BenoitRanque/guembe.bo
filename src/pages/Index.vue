@@ -5,9 +5,12 @@
 
     <!-- List posts -->
     <div class="posts">
-      <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
+      <PostCard
+        v-for="edge in $page.posts.edges"
+        :key="edge.node.id"
+        :post="edge.node"
+      />
     </div>
-
   </Layout>
 </template>
 
@@ -18,6 +21,7 @@ query {
       node {
         id
         title
+        author
         date (format: "D. MMMM YYYY")
         timeToRead
         description
@@ -40,16 +44,18 @@ query {
 </page-query>
 
 <script>
-import Author from '~/components/Author.vue'
-import PostCard from '~/components/PostCard.vue'
+import Layout from "~/layouts/Default.vue";
+import Author from "~/components/Author.vue";
+import PostCard from "~/components/PostCard.vue";
 
 export default {
   components: {
+    Layout,
     Author,
-    PostCard
+    PostCard,
   },
   metaInfo: {
-    title: 'Home'
-  }
-}
+    title: "Home",
+  },
+};
 </script>
