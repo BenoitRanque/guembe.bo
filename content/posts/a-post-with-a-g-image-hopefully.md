@@ -6,6 +6,7 @@ published: true
 tags:
   - prueba
 cover_image: ../../static/images/uploads/portada2.jpg
+background_image: ../../static/images/uploads/portada2.jpg
 description: Descripocion breve del post...
 ---
 
